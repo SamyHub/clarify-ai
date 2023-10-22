@@ -59,7 +59,6 @@ class SCUI_Worker(QObject):
             llm = OpenAI()
             llm_chain = LLMChain(prompt=prompt, llm=llm)
             smart_contract = self.getSmartContract(self.contractID)
-
             response = llm_chain.run(smart_contract)
 
             self.display.emit('Task completed.')
