@@ -16,7 +16,7 @@ __location__ = os.path.dirname(os.path.realpath(__file__))
 #############################################################################
 # Different variables classes
 class OpenAIkey:
-    OPENAI_API_KEY = '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'
+    OPENAI_API_KEY = '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'
 
 class Icons:
     iconsPath = os.path.join(__location__,'icons')
