@@ -87,6 +87,8 @@ class SCUI_Controller:
             except ValueError:
                 self.setDisplay('Something went wrong in the controller!')
         else:
+            self.clearSc()
+            self.clearOutput()
             self.setDisplay('Please enter some text!')
 
 #############################################################################
