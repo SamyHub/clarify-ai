@@ -5,8 +5,7 @@ Stacks x Easy/A Hackathon
 Python Qt5 GUI for to read smart contracts for audit.
 """
 
-# Author and version
-__author__ = 'Samy Hocine'
+# Version
 __version__ = '0.1'
 
 #############################################################################
